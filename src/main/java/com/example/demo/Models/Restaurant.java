@@ -9,12 +9,12 @@ public class Restaurant {
     public String cuisine;
     public String name;
     @Id
-    public String id;
+    public String restaurant_id;
 
-    public Restaurant(String borough, String cuisine, String name, String restaurant_id) {
-        this.borough = borough;
-        this.cuisine = cuisine;
-        this.name = name;
-        this.id = restaurant_id;
-    }
+    // public Restaurant(String borough, String cuisine, String name, String restaurant_id) {
+    //     this.borough = borough;
+    //     this.cuisine = cuisine;
+    //     this.name = name;
+    //     this.restaurant_id = restaurant_id;
+    // }
 }
